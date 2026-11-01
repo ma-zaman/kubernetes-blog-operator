@@ -55,7 +55,7 @@ type BlogInstanceStatus struct {
 	// ReadyReplicas is the number of the blog application instances currently ready to receive traffic
 	Readyreplicas int32 `json:"readyReplicas,omitempty"`
 
-	// URL is the address at wich the blog is expected to be available.
+	// URL is the address at which the blog is expected to be available.
 	URL string `json:"url,omitempty"`
 
 	// ObservedGeneration is the most recent generation observed by the controller
