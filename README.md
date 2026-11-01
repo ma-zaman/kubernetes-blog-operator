@@ -2,7 +2,7 @@
 
 A Kubernetes operator written in Go to provision and manage blog instances declaratively using custom resources.
 
-> **Project status:** Initial development
+> **Project status:** `BlogInstance` API definition available
 
 The project structure has been initialized with Kubebuilder. The `BlogInstance` custom resource and its reconciliation logic will implemented pregressively.
 
@@ -91,8 +91,8 @@ make test
 ## Roadmap
 
 - [x] Initialize the Kubebuilder project
-- [ ] Define the `BlogInstance` API
-- [ ] Generate the Custom Resource Definition
+- [x] Define the `BlogInstance` API
+- [x] Generate the Custom Resource Definition
 - [ ] Implement the initial reconciliation loop
 - [ ] Manage blog configuration with a ConfigMap
 - [ ] Manage the blog Deployment
