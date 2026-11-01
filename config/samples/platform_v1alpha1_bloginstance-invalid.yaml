@@ -1,0 +1,8 @@
+apiVersion: platform.alizaman.fr/v1alpha1
+kind: BlogInstance
+metadata:
+  name: invalid-blog
+spec:
+  title: Invalid Blog
+  replicas: 20
+  image: nginx:1.27

@@ -1,0 +1,9 @@
+apiVersion: platform.alizaman.fr/v1alpha1
+kind: BlogInstance
+metadata:
+  name: demo-blog
+spec:
+  title: My Demo Blog
+  replicas: 2
+  image: nginx:1.27
+  hostname: demo.local

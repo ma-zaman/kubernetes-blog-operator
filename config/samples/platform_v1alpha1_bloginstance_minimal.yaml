@@ -1,0 +1,7 @@
+apiVersion: platform.alizaman.fr/v1alpha1
+kind: BlogInstance
+metadata:
+  name: demo-minimal-blog
+spec:
+  title: My Minimal Blog
+  image: nginx:1.27
